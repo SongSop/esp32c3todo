@@ -1,0 +1,15 @@
+// weather_config.h - 和风天气 API 配置模板
+// 使用前请复制此文件为 weather_config.h 并填写您的 API 信息
+
+#pragma once
+
+// 和风天气 API 配置
+#define QWEATHER_PRIVATE_KEY "YourPrivateKey"
+#define QWEATHER_PUBLIC_KEY "YourPublicKey"
+#define QWEATHER_KEY_ID "YourKeyID"
+#define QWEATHER_PROJECT_ID "YourProjectID"
+#define QWEATHER_API_HOST "YourAPIHost"
+
+// 地点配置
+#define QWEATHER_LOCATION_ID "101010100"  // 地点ID，见和风天气文档
+#define QWEATHER_LOCATION_NAME "城市名称"  // 显示的城市名称

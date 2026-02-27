@@ -1,0 +1,8 @@
+// wifi_config.h - WiFi 配置模板
+// 使用前请复制此文件为 wifi_config.h 并填写您的 WiFi 信息
+
+#pragma once
+
+// WiFi 配置
+#define WIFI_SSID "YourWiFiSSID"
+#define WIFI_PASSWORD "YourWiFiPassword"
