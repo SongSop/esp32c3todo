@@ -4,7 +4,7 @@
 
 ## 📸 项目截图
 
-![项目截图](images/screenshot.jpg) *(请添加项目截图)*
+![项目截图](images/screenshot.jpg) 
 
 ## ✨ 主要功能
 
@@ -60,7 +60,7 @@ git clone https://github.com/yourusername/esp32c3todo.git
 cd esp32c3todo
 ```
 
-### 2. 配置敏感信息
+### 2. 配置信息
 
 项目使用配置模板保护敏感信息，请按以下步骤配置：
 
@@ -79,10 +79,6 @@ cp src/weather/weather_config.h.example src/weather/weather_config.h
 
 > 💡 **获取和风天气 API**：访问 [和风天气开发者平台](https://dev.qweather.com/) 注册账号并创建项目。
 
-#### SSL 密钥配置
-将您的 Ed25519 密钥文件放到 `sslkey/` 目录：
-- `ed25519-private.pem` - 私钥
-- `ed25519-public.pem` - 公钥
 
 > ⚠️ **安全提示**：这些配置文件已被 `.gitignore` 排除，不会被上传到 GitHub。
 
@@ -164,26 +160,12 @@ const unsigned long WEATHER_INTERVAL = 30 * 60 * 1000;
 
 界面已针对移动端优化，支持触摸操作。
 
-## 🔐 安全与隐私
-
-- ✅ 敏感信息已被 `.gitignore` 排除
-- ✅ 使用配置模板，不暴露真实密钥
-- ✅ WiFi 密钥和 API Key 仅存储在本地设备
-- ✅ Ed25519 签名保证 API 请求安全
-
-## 📄 许可证
-
-MIT License
 
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
 
-## 📞 联系方式
-
-- GitHub: [yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-
 ---
 
-**Made with ❤️ by ESP32 & HarmonyOS**
+**Font from [HarmonyOSSans](https://developer.huawei.com/consumer/cn/design/resource/) | Icons from [Meteocons](https://bas.dev/work/meteocons)**
+
